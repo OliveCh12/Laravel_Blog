@@ -1,4 +1,4 @@
-#Blog - Laravel
+#Laravel Blog (Rendu)
 
 Dans un premier temps, télécharger le projet.
 
