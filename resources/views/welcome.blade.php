@@ -1,27 +1,20 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel</title>
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-</head>
-<body>
-@if (Route::has('login'))
-    <div class="top-right links">
-        @auth
-            <a href="{{ url('/home') }}">Home</a>
-        @else
-            <a href="{{ route('login') }}">Login</a>
-            <a href="{{ route('register') }}">Register</a>
-        @endauth
+@extends('layouts.app')
+@section('content')
+    <section class="hero is-info">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Bienvenue sur le Blog
+                </h1>
+                <h2 class="subtitle">
+                    Laravel Project made by "Olivier Chemla" & "Noutcha Tchatat"
+                </h2>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="container">
+            <a href="{{ URL::to('posts') }}" class="button is-primary">Clickez</a>
+        </div>
     </div>
-@endif
-
-<div class="content">
-
-</div>
-</body>
-</html>
+@endsection

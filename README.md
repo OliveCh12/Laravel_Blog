@@ -1,8 +1,8 @@
 #Laravel Blog (Rendu)
 
-Dans un premier temps, télécharger le projet.
+Dans un premier temps, téléchargez le projet.
 
-Modifier le fichier `.env-exemple` renommez le en `.env` et ensuite, entrez les informations de votre base de donnée.
+Modifier le fichier `.env-exemple` et renommez le en `.env` ensuite, entrez les informations de votre base de donnée.
 
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
