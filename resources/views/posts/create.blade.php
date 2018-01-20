@@ -1,7 +1,7 @@
 @extends('layouts.app')
+@section('title', 'Create')
 @section('content')
     <div class="container">
-        <h3 class="title is-3">Post <strong class="has-text-primary">Create</strong> Method</h3>
         <div class="columns">
             <div class="column is-6">
                 <form method="POST" action="/post">

@@ -5,6 +5,6 @@
     <br>
     <span class="tag is-rounded">Article n°{{$post->id}}</span>
     <br><br>
-    <a href="/posts/{post}" class="button is-primary is-rounded">Read More >></a>
+    <a href="/posts/{{$post->id}}" class="button is-primary is-rounded">Read More <i class="fas fa-angle-double-right button-icon"></i></a>
 </article>
 <hr>

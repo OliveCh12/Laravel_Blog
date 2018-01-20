@@ -39,7 +39,7 @@
     <div class="hero-body">
         <div class="container">
             <h1 class="title">
-                <h3 class="title is-3">Post <strong class="has-text-primary">Show</strong> Method</h3>
+                <h3 class="title is-3">Blog <strong class="has-text-black">@yield('title')</strong> Method</h3>
             </h1>
             <h2 class="subtitle">
                 Made by Olivier Chemla

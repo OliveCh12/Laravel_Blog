@@ -11512,3 +11512,12 @@ article {
   padding-bottom: 2%;
 }
 
+.button-icon {
+  margin-left: 10%;
+  vertical-align: bottom;
+}
+
+.container {
+  padding: 2%;
+}
+
