@@ -9,10 +9,14 @@ use Illuminate\Http\Request;
 
 class CommentsController extends Controller
 {
-    public function store(Post $post)
-    {
-    	$this->validate(\request(), ['body' => 'required|min:2']);
-    	$post->addComment(request('body'));
-    	return back();
-    }
+	public function store(Post $post)
+	{
+		$this->validate(\request(), ['body' => 'required|min:2']);
+		$post->comments()->create( [ 'body' => request( 'body' ) ] );
+		return back();
+	}
+	public function destroy(Post $post)
+	{
+		$post->comments()->delete(['id']);
+	}
 }

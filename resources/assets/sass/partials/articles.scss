@@ -1,11 +1,22 @@
-article{
+article {
   padding-top: 2%;
   padding-bottom: 2%;
   }
-.button-icon{
+
+.button-icon {
   margin-left: 10%;
   vertical-align: bottom;
   }
-.container{
+
+.tag:not(body).is-delete {
+  float: right;
+  }
+.image.is-32x32{
+  float: left;
+  margin-right: 2%;
+  margin-top: 5px;
+  }
+
+.container {
   padding: 2%;
   }

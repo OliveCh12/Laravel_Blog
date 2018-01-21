@@ -11517,6 +11517,16 @@ article {
   vertical-align: bottom;
 }
 
+.tag:not(body).is-delete {
+  float: right;
+}
+
+.image.is-32x32 {
+  float: left;
+  margin-right: 2%;
+  margin-top: 5px;
+}
+
 .container {
   padding: 2%;
 }

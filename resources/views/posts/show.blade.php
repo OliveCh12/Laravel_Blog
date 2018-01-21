@@ -22,18 +22,20 @@
                 </div>
                 <div class="field">
                     <div class="control">
-                        <button class="button is-link">Submit</button>
+                        <button class="button is-link" type="submit">Add comment</button>
                     </div>
                 </div>
-
             </form>
             @foreach($post->comments as $comment)
                 <article>
+                    <figure class="image is-32x32">
+                        <img src="https://bulma.io/images/placeholders/128x128.png">
+                    </figure>
                     <p class="">{{  $comment->body }}</p>
+                    <a class="tag is-delete is-rounded"></a>
                     <p class="subtitle is-7 has-text-grey">{{ $comment->created_at->diffForHumans() }}</p>
                 </article>
             @endforeach
-
         </section>
     </div>
 @endsection
