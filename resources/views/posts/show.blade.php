@@ -12,6 +12,7 @@
         <hr>
         <section class="section-comments">
             <h3 class="title is-3">Commentaires :</h3>
+            @include('layouts.partials.errors')
             <form method="POST" action="/posts/{{ $post->id }}/comments">
                 {{ csrf_field() }}
                 <div class="field">
