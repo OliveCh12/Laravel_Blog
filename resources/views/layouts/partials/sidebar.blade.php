@@ -1,4 +1,3 @@
-<h3 class="title is-2">Sidebar</h3>
 <aside class="menu">
     <p class="menu-label">
         General
