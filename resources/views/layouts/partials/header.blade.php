@@ -42,7 +42,7 @@
                 <h3 class="title is-3">Blog <strong class="has-text-black">@yield('title')</strong> Method</h3>
             </h1>
             <h2 class="subtitle">
-                Made by Olivier Chemla
+                Made by Olivier Chemla & Noutcha Tchatat
             </h2>
         </div>
     </div>

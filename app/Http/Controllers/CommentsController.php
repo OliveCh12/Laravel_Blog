@@ -15,7 +15,7 @@ class CommentsController extends Controller
 		$post->comments()->create( [ 'body' => request( 'body' ) ] );
 		return back();
 	}
-	public function destroy(Post $post)
+	public function destroy($id)
 	{
 		$post->comments()->delete(['id']);
 	}
